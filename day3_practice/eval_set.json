@@ -1,0 +1,50 @@
+[
+  {
+    "id": "d2-01",
+    "question": "출장 신청 방법을 상세하게 알려줘.",
+    "type": "fact",
+    "expected_source": "docs/travel_policy.md"
+  },
+  {
+    "id": "d2-02",
+    "question": "재택 중 지켜야할 보안 수칙을 알려줘.",
+    "type": "fact",
+    "expected_source": "docs/remote_work_policy.md"
+  },
+  {
+    "id": "d2-03",
+    "question": "연차 신청 시 필요한 신청서 양식은 뭐야?",
+    "type": "fact",
+    "expected_source": "docs/leave_policy.md"
+  },
+  {
+    "id": "d2-04",
+    "question": "출장가서 먹은 식사 비용은 얼마까지 사용가능해?",
+    "type": "paraphrase",
+    "expected_source": "docs/travel_policy.md"
+  },
+  {
+    "id": "d2-05",
+    "question": "출입증을 분실하면 어떻게 해?",
+    "type": "no_answer",
+    "expected_source": null
+  },
+  {
+    "id": "d3-01",
+    "question": "간단한 네 소개와 네가 도와줄 수 있는 업무를 알려줘.",
+    "type": "no_tool",
+    "expected_source": "none"
+  },
+  {
+    "id": "d3-02",
+    "question": "'로그인이 안되요.' 문의 부서를 분류하고 1099203112 원의 4.7%를 계산해줘.",
+    "type": "multi_tool",
+    "expected_source": "classify_request, calculate"
+  },
+  {
+    "id": "d3-03",
+    "question": "김하늘 님의 소속을 알려줘.",
+    "type": "single_tool",
+    "expected_source": "search_employee"
+  }
+]
